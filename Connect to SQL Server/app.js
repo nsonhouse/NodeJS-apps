@@ -10,7 +10,7 @@ const app = express();
 const PORT = 3000;
 
 // Create new config object for db connection
-let user1 = new DBConfig("localhost", "sandboxDB", "nssqladmin", "ZAQ!zaq1", 1433);
+let user1 = new DBConfig("localhost", "sandboxDB", "sa", "password", 1433);
 
 
 function getData() {
